@@ -2,7 +2,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-olive-deep text-white/60 py-8 px-6">
+    <footer className="bg-brand-black text-white/60 py-8 px-6">
       <div className="max-w-4xl mx-auto text-center font-body text-sm">
         <p className="mb-2">
           © {year} Fabi | Guia Prático da Casa Organizada

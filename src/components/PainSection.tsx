@@ -7,7 +7,7 @@ const pains = [
 
 export default function PainSection() {
   return (
-    <section className="bg-sage-dark text-white py-16 px-6">
+    <section className="bg-brand-black text-white py-16 px-6">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
           Você sente que perdeu o controle da sua rotina?
@@ -22,7 +22,7 @@ export default function PainSection() {
               key={i}
               className="flex items-start gap-3 bg-white/10 rounded-xl p-4"
             >
-              <span className="text-gold text-xl mt-0.5">→</span>
+              <span className="text-brand-green text-xl mt-0.5">→</span>
               <p className="font-body text-white/90">{pain}</p>
             </div>
           ))}
