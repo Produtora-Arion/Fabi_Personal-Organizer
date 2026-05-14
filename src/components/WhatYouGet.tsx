@@ -29,30 +29,30 @@ const bonuses = [
 
 export default function WhatYouGet() {
   return (
-    <section className="bg-cream py-16 px-6">
+    <section className="bg-brand-white py-16 px-6">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-heading text-3xl md:text-4xl text-olive-deep text-center font-bold mb-3">
+        <h2 className="font-heading text-3xl md:text-4xl text-brand-black text-center font-bold mb-3">
           Tudo que você recebe
         </h2>
-        <p className="font-body text-sage-dark text-center mb-10 text-lg">
+        <p className="font-body text-brand-green text-center mb-10 text-lg">
           Ao adquirir o seu e-book, você leva:
         </p>
 
-        <div className="bg-sage-dark rounded-2xl p-6 md:p-8 mb-10 text-white">
+        <div className="bg-brand-black rounded-2xl p-6 md:p-8 mb-10 text-white">
           <h3 className="font-heading text-2xl font-bold mb-5">
             📖 E-book Principal
           </h3>
           <ul className="flex flex-col gap-3">
             {mainItems.map((item, i) => (
               <li key={i} className="flex items-start gap-3 font-body">
-                <span className="text-gold mt-0.5 text-lg">✓</span>
+                <span className="text-brand-green mt-0.5 text-lg">✓</span>
                 <span className="text-white/90">{item}</span>
               </li>
             ))}
           </ul>
         </div>
 
-        <h3 className="font-heading text-2xl text-center text-olive-deep font-bold mb-6">
+        <h3 className="font-heading text-2xl text-center text-brand-black font-bold mb-6">
           + 3 BÔNUS EXCLUSIVOS
         </h3>
 
@@ -60,19 +60,19 @@ export default function WhatYouGet() {
           {bonuses.map((bonus, i) => (
             <div
               key={i}
-              className="bg-white border border-sage-light/40 rounded-2xl p-6 shadow-sm"
+              className="bg-white border border-brand-green/40 rounded-2xl p-6 shadow-sm"
             >
-              <span className="inline-block bg-gold text-olive-deep font-body font-bold text-xs px-3 py-1 rounded-full mb-3 uppercase tracking-wide">
+              <span className="inline-block bg-brand-green text-brand-black font-body font-bold text-xs px-3 py-1 rounded-full mb-3 uppercase tracking-wide">
                 {bonus.number}
               </span>
-              <h4 className="font-heading text-xl text-olive-deep font-semibold mb-2">
+              <h4 className="font-heading text-xl text-brand-black font-semibold mb-2">
                 {bonus.title}
               </h4>
-              <p className="font-body text-gray-700 mb-3 leading-relaxed">
+              <p className="font-body text-brand-black/70 mb-3 leading-relaxed">
                 {bonus.desc}
               </p>
               {bonus.quote && (
-                <p className="font-body italic text-sage-dark text-sm border-l-4 border-sage-light pl-4">
+                <p className="font-body italic text-brand-green text-sm border-l-4 border-brand-green pl-4">
                   "{bonus.quote}"
                 </p>
               )}

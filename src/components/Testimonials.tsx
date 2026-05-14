@@ -18,27 +18,27 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-cream-dark py-16 px-6">
+    <section className="bg-brand-white py-16 px-6">
       <div className="max-w-5xl mx-auto">
-        <h2 className="font-heading text-3xl text-center text-olive-deep mb-2">
+        <h2 className="font-heading text-3xl text-center text-brand-black mb-2">
           O que as leitoras dizem
         </h2>
-        <p className="text-center font-body text-sage-dark mb-10">
+        <p className="text-center font-body text-brand-green mb-10">
           Resultados reais de mulheres que transformaram suas casas
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((t, i) => (
             <div
               key={i}
-              className="bg-white rounded-2xl p-6 shadow-sm border border-sage-light/30 flex flex-col gap-4"
+              className="bg-white rounded-2xl p-6 shadow-sm border border-brand-green/30 flex flex-col gap-4"
             >
-              <div className="text-gold text-3xl font-heading leading-none">"</div>
-              <p className="font-body text-gray-700 leading-relaxed flex-1">
+              <div className="text-brand-green text-3xl font-heading leading-none">"</div>
+              <p className="font-body text-brand-black/70 leading-relaxed flex-1">
                 {t.text}
               </p>
               <div>
-                <p className="font-body font-bold text-olive-deep">{t.name}</p>
-                <p className="font-body text-sm text-sage-dark">{t.detail}</p>
+                <p className="font-body font-bold text-brand-black">{t.name}</p>
+                <p className="font-body text-sm text-brand-green">{t.detail}</p>
               </div>
             </div>
           ))}

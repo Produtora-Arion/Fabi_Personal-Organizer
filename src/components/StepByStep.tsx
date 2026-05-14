@@ -38,12 +38,12 @@ const steps = [
 
 export default function StepByStep() {
   return (
-    <section className="bg-cream-dark py-16 px-6">
+    <section className="bg-brand-white py-16 px-6">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-heading text-3xl md:text-4xl text-olive-deep text-center font-bold mb-3">
+        <h2 className="font-heading text-3xl md:text-4xl text-brand-black text-center font-bold mb-3">
           O passo a passo dos 7 dias
         </h2>
-        <p className="font-body text-sage-dark text-center mb-10 text-lg">
+        <p className="font-body text-brand-green text-center mb-10 text-lg">
           Tudo explicado de forma clara, sem regras impossíveis
         </p>
         <div className="flex flex-col gap-4">
@@ -52,16 +52,16 @@ export default function StepByStep() {
               key={i}
               className="flex items-start gap-5 bg-white rounded-xl p-5 shadow-sm"
             >
-              <div className="flex-shrink-0 w-14 h-14 rounded-full bg-sage-dark flex items-center justify-center">
-                <span className="font-heading text-white text-sm font-bold text-center leading-tight px-1">
+              <div className="flex-shrink-0 w-14 h-14 rounded-full bg-brand-green flex items-center justify-center">
+                <span className="font-heading text-brand-black text-sm font-bold text-center leading-tight px-1">
                   {step.day}
                 </span>
               </div>
               <div>
-                <h3 className="font-heading text-lg text-olive-deep font-semibold mb-1">
+                <h3 className="font-heading text-lg text-brand-black font-semibold mb-1">
                   {step.title}
                 </h3>
-                <p className="font-body text-gray-600 text-sm leading-relaxed">
+                <p className="font-body text-brand-black/60 text-sm leading-relaxed">
                   {step.desc}
                 </p>
               </div>
