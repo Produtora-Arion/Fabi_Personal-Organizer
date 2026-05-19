@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   title: "Guia Prático da Casa Organizada em 7 Dias | Fabi",
   description:
     "O e-book definitivo para mulheres 45+ que querem transformar sua casa e recuperar o controle da vida, sem culpa nem perfeccionismo. Por apenas R$47.",
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({
