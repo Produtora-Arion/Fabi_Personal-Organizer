@@ -6,9 +6,9 @@ const traits = [
 
 export default function ForYou() {
   return (
-    <section className="bg-brand-green/20 py-16 px-6">
+    <section className="bg-brand-green/20 py-12 md:py-16 px-4 sm:px-6">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="font-heading text-3xl md:text-4xl text-brand-black font-bold mb-3">
+        <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl text-brand-black font-bold mb-3">
           Esse guia foi feito para você?
         </h2>
         <p className="font-body text-brand-green mb-10 text-lg">

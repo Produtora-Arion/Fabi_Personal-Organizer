@@ -7,9 +7,9 @@ const pains = [
 
 export default function PainSection() {
   return (
-    <section className="bg-brand-black text-white py-16 px-6">
+    <section className="bg-brand-black text-white py-12 md:py-16 px-4 sm:px-6">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
+        <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Você sente que perdeu o controle da sua rotina?
         </h2>
         <p className="font-body text-white/80 text-lg mb-10 leading-relaxed">

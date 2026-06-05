@@ -29,9 +29,9 @@ const bonuses = [
 
 export default function WhatYouGet() {
   return (
-    <section className="bg-brand-white py-16 px-6">
+    <section className="bg-brand-white py-12 md:py-16 px-4 sm:px-6">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-heading text-3xl md:text-4xl text-brand-black text-center font-bold mb-3">
+        <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl text-brand-black text-center font-bold mb-3">
           Tudo que você recebe
         </h2>
         <p className="font-body text-brand-green text-center mb-10 text-lg">
