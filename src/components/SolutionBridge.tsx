@@ -1,37 +1,36 @@
-import Image from "next/image";
-
 export default function SolutionBridge() {
   return (
-    <section className="bg-brand-white py-12 md:py-16 px-4 sm:px-6">
-      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-10">
-        <div className="flex-shrink-0 w-full max-w-[260px] sm:max-w-xs md:w-72">
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <Image
-              src="/images/fabi-reading.jpg"
-              alt="Fabi lendo e aprendendo"
-              width={400}
-              height={500}
-              className="object-cover w-full"
-            />
+    <section className="bg-[#EBF2E8] py-12 md:py-16 px-4 sm:px-6">
+      <div className="max-w-3xl mx-auto">
+        {/* Ícone animado sobrepondo o card */}
+        <div className="flex justify-center relative z-10 -mb-9">
+          <div className="animate-bounce drop-shadow-xl">
+            <svg width="70" height="62" viewBox="0 0 70 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M35 4L66 58H4L35 4Z" fill="#F5C518" stroke="#F5C518" strokeLinejoin="round" strokeWidth="2"/>
+              <rect x="32" y="20" width="6" height="20" rx="3" fill="#1a1a1a"/>
+              <circle cx="35" cy="49" r="3.5" fill="#1a1a1a"/>
+            </svg>
           </div>
         </div>
-        <div className="flex-1 text-center md:text-left">
-          <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl text-brand-black font-bold mb-6">
-            Existe um caminho diferente — feito para a sua realidade
+        <div className="bg-[#6B8F63] rounded-2xl pt-12 pb-8 px-6 sm:px-8 text-center text-white">
+          <p className="font-body text-white/70 text-xs sm:text-sm uppercase tracking-widest mb-3">
+            Entenda de uma vez por todas...
+          </p>
+          <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold mb-6 leading-tight">
+            Isso só acontece porque você não tem um método feito para a sua realidade
           </h2>
-          <p className="font-body text-brand-black/70 text-lg mb-4 leading-relaxed">
-            Nada de métodos inflexíveis ou cobranças impossíveis.
+          <p className="font-body text-white/80 leading-relaxed mb-4">
+            Você não está errando. Você está tentando se organizar no improviso, com força de vontade que já não tem mais como antes.
           </p>
-          <p className="font-body text-brand-black/70 text-lg leading-relaxed">
-            Com <strong>pequenos passos diários</strong>, você pode recuperar o
-            controle da casa — e da sua própria autoestima!
+          <p className="font-body text-white font-bold mb-4">
+            Não é falta de disciplina. Não é preguiça.
           </p>
-          <div className="mt-8 p-4 bg-brand-green/20 rounded-xl border-l-4 border-brand-green">
-            <p className="font-body text-brand-black italic">
-              "Uma casa organizada não depende de perfeição — depende de
-              intenção e método."
-            </p>
-          </div>
+          <p className="font-body text-white/80 leading-relaxed mb-4">
+            Antes você tinha mais energia e fazia tudo no braço. Hoje seu corpo mudou, sua rotina mudou, sua fase de vida mudou.
+          </p>
+          <p className="font-body text-white font-bold">
+            O que você precisa não é de mais esforço. É de estratégia.
+          </p>
         </div>
       </div>
     </section>
