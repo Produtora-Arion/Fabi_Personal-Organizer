@@ -1,35 +1,43 @@
-const traits = [
-  "Estão cansadas ou sobrecarregadas, mas querem mais leveza na vida",
-  "Já tentaram vários métodos, mas ficam frustradas sem resultados duradouros",
-  "Querem começar com passos pequenos e realistas, sentindo autocuidado — não só uma casa arrumada",
+const painPoints = [
+  "Arrumam a casa e em poucas horas já está igual antes",
+  "Sentem que trabalham o dia inteiro mas a casa nunca fica realmente organizada",
+  "Querem ter uma rotina leve, descansar sem culpa e ter tempo para si mesmas",
+  "Brigam com a família porque ninguém ajuda e tudo recai sobre elas",
+  "Já tentaram vários métodos e nenhum se sustentou por mais de uma semana",
+  "Têm histórico de mães e avós que sempre viveram sobrecarregadas — e não querem repetir esse ciclo",
 ];
 
 export default function ForYou() {
   return (
-    <section className="bg-brand-green/20 py-12 md:py-16 px-4 sm:px-6">
-      <div className="max-w-3xl mx-auto text-center">
-        <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl text-brand-black font-bold mb-3">
-          Esse guia foi feito para você?
-        </h2>
-        <p className="font-body text-brand-green mb-10 text-lg">
-          Esse guia é para mulheres 45+ que:
+    <section className="bg-brand-white py-14 md:py-20 px-4 sm:px-6">
+      <div className="max-w-3xl mx-auto">
+        <p className="font-body text-[#6B8F63] text-[11px] uppercase tracking-[0.2em] text-center mb-4">
+          O Guia Prático da Casa Organizada em 7 Dias é para mulheres que:
         </p>
-        <div className="flex flex-col gap-4 text-left">
-          {traits.map((trait, i) => (
+        <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-brand-black font-bold text-center mb-10 sm:mb-12 leading-tight">
+          Você se reconhece em algum desses pontos?
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 sm:mb-10">
+          {painPoints.map((point, i) => (
             <div
               key={i}
-              className="flex items-start gap-4 bg-white rounded-xl p-5 shadow-sm"
+              className="flex items-start gap-4 bg-white rounded-2xl px-6 py-5 border border-gray-200 border-l-4 border-l-[#6B8F63]"
             >
-              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-brand-green flex items-center justify-center text-brand-black font-body font-bold text-sm">
-                ✓
-              </span>
-              <p className="font-body text-brand-black/70 leading-relaxed">{trait}</p>
+              <span className="text-[#6B8F63] text-base mt-0.5 flex-shrink-0 font-bold">→</span>
+              <p className="font-body text-brand-black/75 leading-relaxed text-sm sm:text-base">
+                {point}
+              </p>
             </div>
           ))}
         </div>
-        <p className="mt-8 font-body text-brand-black font-semibold text-lg">
-          Se você disse sim para algum desses — este guia foi criado para você.
-        </p>
+
+        <div className="bg-[#6B8F63] rounded-2xl px-6 py-5 text-center">
+          <p className="font-body text-white text-sm sm:text-base font-medium leading-relaxed">
+            Se você se identificou com ao menos 2 itens acima, este guia foi criado
+            <br className="hidden sm:block" /> exatamente para você.
+          </p>
+        </div>
       </div>
     </section>
   );
