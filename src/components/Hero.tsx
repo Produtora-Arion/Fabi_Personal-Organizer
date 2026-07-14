@@ -14,7 +14,9 @@ export default function Hero() {
           Feito para mulheres 45+ que não têm mais energia, não têm ajuda e gostariam de uma casa organizada com pouco esforço.
         </p>
         <a
-          href="#comprar"
+          href="https://pay.hotmart.com/G106566473B?bid=1783958290588"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block bg-white text-[#6B8F63] font-body font-bold text-base sm:text-lg px-10 sm:px-14 py-4 rounded-full transition-opacity hover:opacity-90 mb-2"
         >
           Quero organizar minha casa agora

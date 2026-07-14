@@ -9,7 +9,9 @@ export default function FinalCTA() {
           Acesso imediato ao e-book + 3 bônus exclusivos por apenas R$47,00
         </p>
         <a
-          href="#comprar"
+          href="https://pay.hotmart.com/G106566473B?bid=1783958290588"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block bg-[#6B8F63] text-white font-body font-bold text-base sm:text-lg px-8 sm:px-12 py-4 rounded-full transition-all hover:brightness-110 shadow-lg mb-4"
         >
           Sim, quero os bônus e minha vida organizada em 7 dias!
