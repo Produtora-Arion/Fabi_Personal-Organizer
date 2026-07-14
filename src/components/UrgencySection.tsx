@@ -13,7 +13,9 @@ export default function UrgencySection() {
           <strong>com apoio, método e zero cobrança de perfeição.</strong>
         </p>
         <a
-          href="#comprar"
+          href="https://pay.hotmart.com/G106566473B?bid=1783958290588"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block bg-brand-green hover:bg-brand-green/80 text-brand-black font-body font-bold text-lg px-8 py-4 rounded-full transition-colors"
         >
           Quero começar agora →
