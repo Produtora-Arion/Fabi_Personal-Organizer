@@ -32,7 +32,7 @@ export default function AuthorSection() {
             Aos 49 anos, me formei Personal Organizer. E comecei a entender algo que mudou tudo: o problema das mulheres da minha geração nunca foi falta de vontade. Foi falta de um método feito para a fase de vida delas.
           </p>
           <p className="font-body text-brand-black/70 leading-relaxed mb-5">
-            Criei este guia com tudo que aprendi — para que você não precise mais improvisar, se sentir culpada ou achar que o problema é você.{" "}
+            Criei este guia com tudo o que aprendi — para que você não precise mais improvisar, se sentir culpada ou achar que o problema é você.{" "}
             <strong className="text-brand-black">
               A casa pode ser leve. A rotina pode funcionar. E você merece sentir isso.
             </strong>

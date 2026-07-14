@@ -5,7 +5,7 @@ import { useState } from "react";
 const faqs = [
   {
     q: "O que é o Guia Prático da Casa Organizada em 7 Dias?",
-    a: "É um e-book digital em PDF com método testado para organizar sua casa em 7 dias, um cômodo por dia, com linguagem acolhedora e sem perfeccionismo. Inclui checklists exclusivos e orientações para mulheres 45+.",
+    a: "É um e-book digital em PDF com um método testado para organizar sua casa em 7 dias, um cômodo por dia, com linguagem acolhedora e sem perfeccionismo. Inclui checklists exclusivos e orientações para mulheres 45+.",
   },
   {
     q: "Quanto tempo leva para ter resultado?",

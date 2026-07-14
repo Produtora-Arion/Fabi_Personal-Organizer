@@ -1,10 +1,10 @@
 const painPoints = [
-  "Arrumam a casa e em poucas horas já está igual antes",
-  "Sentem que trabalham o dia inteiro mas a casa nunca fica realmente organizada",
-  "Querem ter uma rotina leve, descansar sem culpa e ter tempo para si mesmas",
-  "Brigam com a família porque ninguém ajuda e tudo recai sobre elas",
-  "Já tentaram vários métodos e nenhum se sustentou por mais de uma semana",
-  "Têm histórico de mães e avós que sempre viveram sobrecarregadas — e não querem repetir esse ciclo",
+  "Você arruma a casa e em poucas horas já está tudo igual a antes",
+  "Você sente que trabalha o dia inteiro, mas a casa nunca fica realmente organizada",
+  "Você quer uma rotina mais leve, descansar sem culpa e ter tempo para si mesma",
+  "Você briga com a família porque ninguém ajuda — e tudo recai sobre você",
+  "Você já tentou vários métodos e nenhum durou mais de uma semana",
+  "Você não quer repetir o ciclo de mães e avós que viveram sempre sobrecarregadas",
 ];
 
 export default function ForYou() {

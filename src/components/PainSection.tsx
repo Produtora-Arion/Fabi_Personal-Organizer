@@ -139,14 +139,14 @@ export default function PainSection() {
             É horrível se sentir assim, né?
           </h3>
           <p className="font-body text-brand-black/70 leading-relaxed mb-2">
-            Viver numa casa onde a bagunça está destruindo sua paz, e sua autoestima.
+            Viver numa casa onde a bagunça está destruindo sua paz e sua autoestima.
           </p>
           <p className="font-body text-brand-black/70 leading-relaxed mb-4">
-            Ao invés de descansar e aproveitar o lar que você cuida há anos, você só vive com aquela
+            Em vez de descansar e aproveitar o lar que você cuida há anos, você só vive com aquela
             sensação de que <strong>nunca é suficiente.</strong>
           </p>
           <p className="font-body text-[#6B8F63] italic font-semibold">
-            Eu tenho certeza que você não quer mais passar por isso.
+            Tenho certeza de que você não quer mais passar por isso.
           </p>
         </div>
       </div>
