@@ -44,7 +44,7 @@ export default function WhatYouGet() {
     <section className="bg-brand-white py-12 md:py-16 px-4 sm:px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl text-brand-black font-bold text-center mb-10 sm:mb-12">
-          Veja tudo que você vai receber ao adquirir o Guia
+          Veja tudo o que você vai receber ao adquirir o Guia
         </h2>
         <div className="flex flex-col gap-10 sm:gap-14">
           {items.map((item, i) => (

@@ -5,24 +5,10 @@ export default function Hero() {
     <section className="bg-[#6B8F63] py-12 md:py-16 px-4 sm:px-6">
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6 text-white">
-          Retome o controle da sua casa com um método de 7 dias e aprenda a manter tudo organizado com poucos minutos por dia
+          Como Organizar Sua Casa Inteira em 7 Dias, Mesmo Depois dos 45 anos, Trabalhando Fora, Cuidando dos Filhos e Sem Ajuda de Ninguém
         </h1>
-        <p className="text-white/80 font-body text-base sm:text-lg mb-3 leading-relaxed">
-          Mesmo você esteja cansada, sem energia e sem ajuda. Sem métodos complicados. Sem precisar reorganizar a casa inteira de uma vez.
-        </p>
-        <p className="text-white/70 font-body text-sm sm:text-base mb-8 md:mb-10">
-          Feito para mulheres 45+ que não têm mais energia, não têm ajuda e gostariam de uma casa organizada com pouco esforço.
-        </p>
-        <a
-          href="https://pay.hotmart.com/G106566473B?bid=1783958290588"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-white text-[#6B8F63] font-body font-bold text-base sm:text-lg px-10 sm:px-14 py-4 rounded-full transition-opacity hover:opacity-90 mb-2"
-        >
-          Quero organizar minha casa agora
-        </a>
-        <p className="font-body text-white/60 text-xs sm:text-sm mb-10 md:mb-14">
-          🔒 Acesso imediato · Pagamento seguro · Garantia de 7 dias
+        <p className="text-white/80 font-body text-base sm:text-lg mb-10 md:mb-14 leading-relaxed">
+          O passo a passo que já transformou a rotina de centenas de mulheres, sem gastar uma fortuna em organizadores e caixinhas.
         </p>
         <div className="w-full max-w-2xl mx-auto relative rounded-2xl overflow-hidden shadow-xl">
           <div className="flex flex-col sm:flex-row">

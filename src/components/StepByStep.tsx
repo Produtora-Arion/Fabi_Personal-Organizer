@@ -9,7 +9,7 @@ const steps = [
     number: "02",
     emoji: "📦",
     title: "Elimine os excessos com critério",
-    desc: "Junte tudo que não usa há mais de um ano e libere espaço, físico e mental. Você não precisa de mais organizadores. Precisa de menos coisas no lugar errado.",
+    desc: "Junte tudo o que não usa há mais de um ano e libere espaço, físico e mental. Você não precisa de mais organizadores. Precisa de menos coisas no lugar errado.",
   },
   {
     number: "03",
