@@ -18,15 +18,21 @@ export default function PricingCTA() {
             Comece a transformar sua casa ainda hoje
           </h2>
           <div className="bg-white/15 border border-white/25 rounded-2xl p-7 sm:p-9 w-full max-w-lg">
-            <p className="font-body text-white/60 text-center line-through mb-2 text-sm">
-              De R$428,00
+            <p className="font-body text-white/60 text-center line-through mb-1 text-sm">
+              De R$ 328,00
             </p>
-            <div className="flex items-end justify-center gap-2 mb-4">
-              <span className="font-body text-white text-2xl mb-4">R$</span>
+            <p className="font-body text-white font-bold text-center text-lg sm:text-xl mb-2">
+              Por apenas 6x de:
+            </p>
+            <div className="flex items-end justify-center gap-1 mb-2">
+              <span className="font-body text-white text-2xl mb-5">R$</span>
               <span className="font-heading text-8xl sm:text-9xl font-normal italic text-white leading-none" style={{ fontFamily: "var(--font-playfair)" }}>
-                47
+                8,80
               </span>
             </div>
+            <p className="font-body text-white/80 text-center text-sm mb-4">
+              Ou R$ 47,00 à vista com desconto
+            </p>
             <p className="font-body text-white/80 text-xs sm:text-sm text-center leading-relaxed mb-6">
               Pagamento único · Guia completo + 3 bônus exclusivos · Acesso imediato
             </p>

@@ -13,13 +13,12 @@ export default function Hero() {
         <div className="w-full max-w-2xl mx-auto relative rounded-2xl overflow-hidden shadow-xl">
           <div className="flex flex-col sm:flex-row">
             {/* ANTES */}
-            <div className="w-full sm:w-1/2 h-56 sm:h-[340px] md:h-[380px] relative">
+            <div className="w-full sm:w-1/2 h-72 sm:h-[340px] md:h-[380px] relative">
               <Image
-                src="/images/antes.png"
+                src="/images/Antes.jpeg"
                 alt="Antes: mulher sobrecarregada em casa desorganizada"
                 fill
-                className="object-cover"
-                style={{ objectPosition: "center 15%" }}
+                className="object-cover [object-position:center_20%] sm:[object-position:center_15%]"
                 priority
               />
               <div className="absolute inset-0 bg-black/15" />
@@ -39,13 +38,12 @@ export default function Hero() {
             </div>
 
             {/* DEPOIS */}
-            <div className="w-full sm:w-1/2 h-56 sm:h-[340px] md:h-[380px] relative">
+            <div className="w-full sm:w-1/2 h-72 sm:h-[340px] md:h-[380px] relative">
               <Image
                 src="/images/depois.png"
                 alt="Depois: mulher feliz em casa organizada"
                 fill
-                className="object-cover"
-                style={{ objectPosition: "30% 15%" }}
+                className="object-cover [object-position:center_20%] sm:[object-position:30%_15%]"
                 priority
               />
               <span className="absolute top-3 right-3 bg-[#6B8F63]/90 text-white font-body font-bold text-[11px] uppercase tracking-widest px-3 py-1 rounded-full backdrop-blur-sm">

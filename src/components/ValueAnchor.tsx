@@ -1,6 +1,6 @@
 const recap = [
-  { title: "Guia Prático da Casa Organizada em 7 Dias", price: "R$197,00" },
-  { title: "Organizadores Inteligentes que Você Já Tem em Casa", price: "R$97,00" },
+  { title: "Guia Prático da Casa Organizada em 7 Dias", price: "R$127,00" },
+  { title: "Organizadores Inteligentes que Você Já Tem em Casa", price: "R$67,00" },
   { title: "Protocolo da Casa Cheirosa e Acolhedora", price: "R$67,00" },
   { title: "Manual da Mesa que Fortalece a Família", price: "R$67,00" },
 ];
@@ -27,7 +27,7 @@ export default function ValueAnchor() {
         </div>
         <div className="bg-white/10 rounded-2xl p-5 sm:p-6 text-center">
           <p className="font-heading text-lg sm:text-xl md:text-2xl text-white font-bold leading-snug">
-            Tudo isso deveria custar R$428,00. Mas hoje você
+            Tudo isso deveria custar R$328,00. Mas hoje você
             <br className="hidden sm:block" />
             {" "}vai ter acesso por apenas:
           </p>
