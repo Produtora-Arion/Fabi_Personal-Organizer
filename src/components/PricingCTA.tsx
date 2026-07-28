@@ -19,7 +19,7 @@ export default function PricingCTA() {
           </h2>
           <div className="bg-white/15 border border-white/25 rounded-2xl p-7 sm:p-9 w-full max-w-lg">
             <p className="font-body text-white/60 text-center line-through mb-1 text-sm">
-              De R$ 328,00
+              De R$ 355,00
             </p>
             <p className="font-body text-white font-bold text-center text-lg sm:text-xl mb-2">
               Por apenas 6x de:

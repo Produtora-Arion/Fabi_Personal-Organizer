@@ -5,7 +5,7 @@ const items = [
     number: "01",
     title: "Guia Prático da Casa Organizada em 7 Dias",
     desc: "O método completo, com roteiro diário por ambiente, checklists de ação e linguagem feita para mulheres 45+ sem jargões, sem pressão, sem perfeccionismo. Um cômodo por dia. No seu ritmo. Com resultado real já na primeira semana.",
-    price: "R$197,00",
+    price: "R$127,00",
     image: "/images/mockup-nobg.png",
     imageAlt: "E-book Guia Prático da Casa Organizada",
     imageBg: "#95B08F",
@@ -14,7 +14,7 @@ const items = [
     number: "02",
     title: "Organizadores Inteligentes que Você Já Tem em Casa",
     desc: "Descubra como criar soluções de organização usando caixas, potes, bandejas e itens que você já tem. Organização sem gastar nada extra — porque o problema nunca foi falta de organizador.",
-    price: "R$97,00",
+    price: "R$67,00",
     image: "/images/1eadd1a1899510b179b67931478529a245c0f3a2.png",
     imageAlt: "Organizadores inteligentes",
     imageBg: "#A8C5A0",
@@ -36,6 +36,15 @@ const items = [
     image: "/images/0ba827fe39e4a72ae35a3ce4c47463bf6f1101a3.png",
     imageAlt: "Mesa que fortalece a família",
     imageBg: "#C4D5B5",
+  },
+  {
+    number: "05",
+    title: "Checklist de Cada Ambiente",
+    desc: "Não precisa inventar o que fazer todo dia. Cozinha | Quartos | Banheiro | Sala | Lavanderia. Cada checklist é uma sequência clara de ações. Você imprime ou usa no celular. Marca conforme termina.",
+    price: "R$27,00",
+    image: "/images/checklist-ipad.png",
+    imageAlt: "Checklist de cada ambiente no iPad",
+    imageBg: "#D6C9B0",
   },
 ];
 
