@@ -37,7 +37,7 @@ export default function PricingCTA() {
               Pagamento único · Guia completo + 3 bônus exclusivos · Acesso imediato
             </p>
             <a
-              href="https://pay.hotmart.com/G106566473B?bid=1783958290588"
+              href="https://pay.hotmart.com/R106904683K"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center text-center font-body font-bold text-sm uppercase tracking-wide px-8 py-4 rounded-full shadow-lg hover:shadow-xl hover:brightness-105 transition-all duration-200 mb-4 w-full"
