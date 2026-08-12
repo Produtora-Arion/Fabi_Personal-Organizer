@@ -1,4 +1,6 @@
+'use client';
 import Image from "next/image";
+import { trackButtonClick } from "@/components/TrackedUrlAccessPixel";
 
 export default function PricingCTA() {
   return (
@@ -40,6 +42,7 @@ export default function PricingCTA() {
               href="https://pay.hotmart.com/R106904683K"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackButtonClick('botao-comprar')}
               className="flex items-center justify-center text-center font-body font-bold text-sm uppercase tracking-wide px-8 py-4 rounded-full shadow-lg hover:shadow-xl hover:brightness-105 transition-all duration-200 mb-4 w-full"
               style={{ backgroundColor: "#D4A827", color: "#2D2D2D" }}
             >

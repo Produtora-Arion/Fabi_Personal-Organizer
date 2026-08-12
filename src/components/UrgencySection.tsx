@@ -1,3 +1,6 @@
+'use client';
+import { trackButtonClick } from "@/components/TrackedUrlAccessPixel";
+
 export default function UrgencySection() {
   return (
     <section className="bg-brand-white py-12 md:py-16 px-4 sm:px-6">
@@ -16,6 +19,7 @@ export default function UrgencySection() {
           href="https://pay.hotmart.com/R106904683K"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackButtonClick('botao-urgency')}
           className="inline-block bg-brand-green hover:bg-brand-green/80 text-brand-black font-body font-bold text-lg px-8 py-4 rounded-full transition-colors"
         >
           Quero começar agora →

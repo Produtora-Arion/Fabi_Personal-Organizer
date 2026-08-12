@@ -19,3 +19,9 @@ export function TrackedUrlAccessPixel() {
   }, []);
   return null;
 }
+
+// Chame no onClick de cada botão que quiser medir — dê um nome diferente pra cada um
+export function trackButtonClick(label: string) {
+  fetch('https://trafego-pago-analytcs-crm-backend.onrender.com/t/fabi-damiani-650739be/click?label=' + encodeURIComponent(label),
+  { keepalive: true }).catch(() => {});
+}
