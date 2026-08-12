@@ -23,10 +23,10 @@ export default function Home() {
       <StepByStep />
       <WhatYouGet />
       <ValueAnchor />
-      <PricingCTA />
+      <PricingCTA trackingLabel="botao-comprar-topo" />
       <AuthorSection />
       <FinalCTA />
-      <PricingCTA />
+      <PricingCTA trackingLabel="botao-comprar-rodape" />
       <FAQ />
       <Footer />
     </main>
