@@ -1,3 +1,6 @@
+'use client';
+import { trackButtonClick } from "@/components/TrackedUrlAccessPixel";
+
 export default function FinalCTA() {
   return (
     <section className="bg-brand-black text-white py-12 md:py-16 px-4 sm:px-6">
@@ -12,6 +15,7 @@ export default function FinalCTA() {
           href="https://pay.hotmart.com/R106904683K"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackButtonClick('botao-final-cta')}
           className="inline-block bg-[#6B8F63] text-white font-body font-bold text-base sm:text-lg px-8 sm:px-12 py-4 rounded-full transition-all hover:brightness-110 shadow-lg mb-4"
         >
           Sim, quero os bônus e minha vida organizada em 7 dias!
