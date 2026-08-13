@@ -1,5 +1,5 @@
 'use client';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 const VID_KEY = 'arion_vid';
 function getVisitorId() {
@@ -24,4 +24,22 @@ export function TrackedUrlAccessPixel() {
 export function trackButtonClick(label: string) {
   fetch('https://trafego-pago-analytcs-crm-backend.onrender.com/t/fabi-damiani-650739be/click?label=' + encodeURIComponent(label),
   { keepalive: true }).catch(() => {});
+}
+
+// Registra quando o botão aparece na tela (impressão) — use o mesmo label do click pra calcular CTR
+export function useButtonView(label: string) {
+  const ref = useRef<HTMLAnchorElement>(null);
+  useEffect(() => {
+    if (!ref.current) return;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        fetch('https://trafego-pago-analytcs-crm-backend.onrender.com/t/fabi-damiani-650739be/view?label=' + encodeURIComponent(label),
+        { keepalive: true }).catch(() => {});
+        observer.disconnect();
+      }
+    }, { threshold: 0.5 });
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [label]);
+  return ref;
 }
