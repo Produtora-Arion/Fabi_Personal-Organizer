@@ -1,8 +1,9 @@
 'use client';
 import Image from "next/image";
-import { trackButtonClick } from "@/components/TrackedUrlAccessPixel";
+import { trackButtonClick, useButtonView } from "@/components/TrackedUrlAccessPixel";
 
 export default function PricingCTA({ trackingLabel = 'botao-comprar' }: { trackingLabel?: string }) {
+  const btnRef = useButtonView(trackingLabel);
   return (
     <section id="comprar" className="py-12 md:py-16 px-4 sm:px-6" style={{ backgroundColor: "#6B8F63" }}>
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-2 md:gap-4">
@@ -39,6 +40,7 @@ export default function PricingCTA({ trackingLabel = 'botao-comprar' }: { tracki
               Pagamento único · Guia completo + 3 bônus exclusivos · Acesso imediato
             </p>
             <a
+              ref={btnRef}
               href="https://pay.hotmart.com/R106904683K"
               target="_blank"
               rel="noopener noreferrer"

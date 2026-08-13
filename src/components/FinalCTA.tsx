@@ -1,7 +1,8 @@
 'use client';
-import { trackButtonClick } from "@/components/TrackedUrlAccessPixel";
+import { trackButtonClick, useButtonView } from "@/components/TrackedUrlAccessPixel";
 
 export default function FinalCTA() {
+  const btnRef = useButtonView('botao-final-cta');
   return (
     <section className="bg-brand-black text-white py-12 md:py-16 px-4 sm:px-6">
       <div className="max-w-2xl mx-auto text-center">
@@ -12,6 +13,7 @@ export default function FinalCTA() {
           Acesso imediato ao e-book + 3 bônus exclusivos por apenas R$47,00
         </p>
         <a
+          ref={btnRef}
           href="https://pay.hotmart.com/R106904683K"
           target="_blank"
           rel="noopener noreferrer"
