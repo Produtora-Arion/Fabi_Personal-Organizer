@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="bg-[#6B8F63] py-12 md:py-16 px-4 sm:px-6">
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6 text-white">
-          Como Organizar Sua Casa Inteira em 7 Dias, Mesmo Depois dos 45 anos, Trabalhando Fora, Cuidando dos Filhos e Sem Ajuda de Ninguém
+          Acesse agora o passo a passo de 7 dias que organiza sua casa inteira, mesmo com rotina cheia, filhos pequenos e zero ajuda em casa
         </h1>
         <p className="text-white/80 font-body text-base sm:text-lg mb-10 md:mb-14 leading-relaxed">
           O passo a passo que já transformou a rotina de centenas de mulheres, sem gastar uma fortuna em organizadores e caixinhas.
@@ -63,6 +63,16 @@ export default function Hero() {
               </span>
             </div>
           </div>
+        </div>
+
+        {/* Botão abaixo da imagem */}
+        <div className="mt-8">
+          <a
+            href="#comprar"
+            className="inline-block bg-white text-[#6B8F63] font-body font-bold text-base sm:text-lg px-10 sm:px-14 py-4 rounded-full transition-opacity hover:opacity-90 shadow-lg"
+          >
+            Quer receber o passo a passo? →
+          </a>
         </div>
       </div>
     </section>
