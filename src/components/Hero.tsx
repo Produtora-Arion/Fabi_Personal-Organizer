@@ -69,7 +69,7 @@ export default function Hero() {
         <div className="mt-8 flex flex-col items-center gap-2">
           <a
             href="#comprar"
-            className="inline-block font-body font-bold text-base sm:text-lg px-10 sm:px-16 py-4 sm:py-5 rounded-full shadow-xl transition-all duration-200 hover:brightness-110 hover:scale-105 animate-pulse"
+            className="inline-block font-body font-bold text-base sm:text-lg px-10 sm:px-16 py-4 sm:py-5 rounded-full shadow-xl transition-all duration-200 hover:brightness-110 hover:scale-105"
             style={{ backgroundColor: "#D4A827", color: "#2D2D2D" }}
           >
             Sim! Quero organizar minha casa agora
