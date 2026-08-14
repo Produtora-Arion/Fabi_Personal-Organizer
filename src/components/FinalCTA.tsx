@@ -1,8 +1,9 @@
 'use client';
-import { trackButtonClick, useButtonView } from "@/components/TrackedUrlAccessPixel";
+import { trackButtonClick, useButtonView, useHotmartUrl } from "@/components/TrackedUrlAccessPixel";
 
 export default function FinalCTA() {
   const btnRef = useButtonView('botao-final-cta');
+  const hotmartUrl = useHotmartUrl();
   return (
     <section className="bg-brand-black text-white py-12 md:py-16 px-4 sm:px-6">
       <div className="max-w-2xl mx-auto text-center">
@@ -14,7 +15,7 @@ export default function FinalCTA() {
         </p>
         <a
           ref={btnRef}
-          href="https://pay.hotmart.com/R106904683K"
+          href={hotmartUrl}
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => trackButtonClick('botao-final-cta')}
