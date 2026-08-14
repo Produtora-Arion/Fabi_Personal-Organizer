@@ -14,7 +14,14 @@ function getVisitorId() {
 
 export function TrackedUrlAccessPixel() {
   useEffect(() => {
-    fetch('https://trafego-pago-analytcs-crm-backend.onrender.com/t/fabi-damiani-650739be/access?vid=' + getVisitorId(),
+    const params = new URLSearchParams(window.location.search);
+    const q = new URLSearchParams({ vid: getVisitorId() });
+    // Repassa as UTMs da URL do site (ex: ?utm_source=Instagram&utm_medium=Storys)
+    ['utm_source', 'utm_medium', 'utm_campaign'].forEach(key => {
+      const value = params.get(key);
+      if (value) q.set(key, value);
+    });
+    fetch('https://trafego-pago-analytcs-crm-backend.onrender.com/t/fabi-damiani-650739be/access?' + q.toString(),
     { keepalive: true }).catch(() => {});
   }, []);
   return null;
