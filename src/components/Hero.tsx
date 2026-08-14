@@ -1,6 +1,9 @@
+'use client';
 import Image from "next/image";
+import { trackButtonClick, useButtonView } from "@/components/TrackedUrlAccessPixel";
 
 export default function Hero() {
+  const btnRef = useButtonView('botao-hero');
   return (
     <section className="bg-[#6B8F63] py-12 md:py-16 px-4 sm:px-6">
       <div className="max-w-3xl mx-auto text-center">
@@ -68,7 +71,9 @@ export default function Hero() {
         {/* Botão abaixo da imagem */}
         <div className="mt-8 flex flex-col items-center gap-2">
           <a
+            ref={btnRef}
             href="#comprar"
+            onClick={() => trackButtonClick('botao-hero')}
             className="inline-block font-body font-bold text-base sm:text-lg px-10 sm:px-16 py-4 sm:py-5 rounded-full shadow-xl transition-all duration-200 hover:brightness-110 hover:scale-105"
             style={{ backgroundColor: "#D4A827", color: "#2D2D2D" }}
           >
