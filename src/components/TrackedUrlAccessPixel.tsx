@@ -52,7 +52,8 @@ export function useButtonView(label: string) {
     if (!ref.current) return;
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
-        fetch('https://trafego-pago-analytcs-crm-backend.onrender.com/t/fabi-damiani-650739be/view?label=' + encodeURIComponent(label),
+        const q = new URLSearchParams({ label, vid: getVisitorId() });
+        fetch('https://trafego-pago-analytcs-crm-backend.onrender.com/t/fabi-damiani-650739be/view?' + q.toString(),
         { keepalive: true }).catch(() => {});
         observer.disconnect();
       }
