@@ -66,13 +66,17 @@ export default function Hero() {
         </div>
 
         {/* Botão abaixo da imagem */}
-        <div className="mt-8">
+        <div className="mt-8 flex flex-col items-center gap-2">
           <a
             href="#comprar"
-            className="inline-block bg-white text-[#6B8F63] font-body font-bold text-base sm:text-lg px-10 sm:px-14 py-4 rounded-full transition-opacity hover:opacity-90 shadow-lg"
+            className="inline-block font-body font-bold text-base sm:text-lg px-10 sm:px-16 py-4 sm:py-5 rounded-full shadow-xl transition-all duration-200 hover:brightness-110 hover:scale-105 animate-pulse"
+            style={{ backgroundColor: "#D4A827", color: "#2D2D2D" }}
           >
-            Quer receber o passo a passo? →
+            Sim! Quero organizar minha casa agora
           </a>
+          <p className="font-body text-white/60 text-xs">
+            🔒 Acesso imediato · Garantia de 7 dias
+          </p>
         </div>
       </div>
     </section>
