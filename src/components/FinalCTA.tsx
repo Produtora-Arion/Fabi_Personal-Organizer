@@ -1,8 +1,7 @@
 'use client';
-import { trackButtonClick, useButtonView, useHotmartUrl } from "@/components/TrackedUrlAccessPixel";
+import { useHotmartUrl } from "@/components/TrackedUrlAccessPixel";
 
 export default function FinalCTA() {
-  const btnRef = useButtonView('botao-final-cta');
   const hotmartUrl = useHotmartUrl();
   return (
     <section className="bg-brand-black text-white py-12 md:py-16 px-4 sm:px-6">
@@ -14,11 +13,10 @@ export default function FinalCTA() {
           Acesso imediato ao e-book + 3 bônus exclusivos por apenas R$47,00
         </p>
         <a
-          ref={btnRef}
           href={hotmartUrl}
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackButtonClick('botao-final-cta')}
+          data-track="botao-final-cta"
           className="inline-block bg-[#6B8F63] text-white font-body font-bold text-base sm:text-lg px-8 sm:px-12 py-4 rounded-full transition-all hover:brightness-110 shadow-lg mb-4"
         >
           Sim, quero os bônus e minha vida organizada em 7 dias!
