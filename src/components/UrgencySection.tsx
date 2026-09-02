@@ -1,4 +1,8 @@
+'use client';
+import { useHotmartUrl } from "@/components/TrackedUrlAccessPixel";
+
 export default function UrgencySection() {
+  const hotmartUrl = useHotmartUrl();
   return (
     <section className="bg-brand-white py-12 md:py-16 px-4 sm:px-6">
       <div className="max-w-2xl mx-auto text-center">
@@ -13,7 +17,7 @@ export default function UrgencySection() {
           <strong>com apoio, método e zero cobrança de perfeição.</strong>
         </p>
         <a
-          href="https://pay.hotmart.com/R106904683K"
+          href={hotmartUrl}
           target="_blank"
           rel="noopener noreferrer"
           data-track="botao-urgency"
