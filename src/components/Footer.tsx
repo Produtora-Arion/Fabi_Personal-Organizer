@@ -12,7 +12,7 @@ export default function Footer() {
           <a href="#" className="hover:text-white/70 transition-colors">
             Termos de Uso
           </a>
-          <a href="#" className="hover:text-white/70 transition-colors">
+          <a href="/politica-de-privacidade" className="hover:text-white/70 transition-colors">
             Política de Privacidade
           </a>
         </div>
