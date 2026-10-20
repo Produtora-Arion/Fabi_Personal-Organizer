@@ -136,17 +136,16 @@ export default function PainSection() {
         {/* Box inferior */}
         <div className="bg-[#FAF7F2] rounded-2xl px-6 sm:px-10 py-8 text-center max-w-3xl mx-auto">
           <h3 className="font-heading text-xl sm:text-2xl md:text-3xl text-brand-black font-bold mb-4">
-            É horrível se sentir assim, né?
+            E sabe o que é pior? Você não para.
           </h3>
           <p className="font-body text-brand-black/70 leading-relaxed mb-2">
-            Viver numa casa onde a bagunça está destruindo sua paz e sua autoestima.
+            Todo dia você recomeça. Arruma um cantinho. Tenta uma estratégia nova. E no dia seguinte, tudo está igual.
           </p>
           <p className="font-body text-brand-black/70 leading-relaxed mb-4">
-            Em vez de descansar e aproveitar o lar que você cuida há anos, você só vive com aquela
-            sensação de que <strong>nunca é suficiente.</strong>
+            Não é falta de vontade. É falta de um método que caiba na sua vida — para quem tem <strong>pouco tempo</strong>, faz <strong>tudo sozinha</strong> e já está cansada de recomeçar do zero.
           </p>
           <p className="font-body text-[#6B8F63] italic font-semibold">
-            Tenho certeza de que você não quer mais passar por isso.
+            Isso tem solução. E cabe em 7 dias.
           </p>
         </div>
       </div>

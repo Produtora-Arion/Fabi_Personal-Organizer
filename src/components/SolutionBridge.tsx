@@ -20,16 +20,16 @@ export default function SolutionBridge() {
             Isso só acontece porque você não tem um método feito para a sua realidade
           </h2>
           <p className="font-body text-white/80 leading-relaxed mb-4">
-            Você não está errando. Você está tentando se organizar no improviso, com força de vontade que já não tem mais como antes.
+            Você está tentando se organizar como se a sua vida de hoje fosse igual à de 10 anos atrás — com a mesma energia, o mesmo tempo, o mesmo suporte. Mas não é.
           </p>
           <p className="font-body text-white font-bold mb-4">
             Não é falta de disciplina. Não é preguiça.
           </p>
           <p className="font-body text-white/80 leading-relaxed mb-4">
-            Antes você tinha mais energia e fazia tudo no braço. Hoje seu corpo mudou, sua rotina mudou, sua fase de vida mudou.
+            Sua rotina mudou. Suas prioridades mudaram. O método precisa acompanhar isso — e ser feito para funcionar com pouco tempo, sozinha e sem depender de ninguém.
           </p>
           <p className="font-body text-white font-bold">
-            O que você precisa não é de mais esforço. É de estratégia.
+            O que você precisa não é de mais esforço. É de estratégia certa para a sua realidade.
           </p>
         </div>
       </div>

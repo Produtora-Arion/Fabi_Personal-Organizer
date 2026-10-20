@@ -1,10 +1,10 @@
 const painPoints = [
-  "Você arruma a casa e em poucas horas já está tudo igual a antes",
-  "Você sente que trabalha o dia inteiro, mas a casa nunca fica realmente organizada",
-  "Você quer uma rotina mais leve, descansar sem culpa e ter tempo para si mesma",
-  "Você briga com a família porque ninguém ajuda — e tudo recai sobre você",
+  "Você não tem tempo — e quando tem, não sabe nem por onde começar",
+  "Você arruma de manhã e à tarde já parece que nunca arrumou nada",
+  "Você faz tudo sozinha e, no fim do dia, ainda tem uma pilha de coisas te esperando",
+  "Já gastou em organizadores e caixinhas que prometiam milagres e não adiantaram nada",
   "Você já tentou vários métodos e nenhum durou mais de uma semana",
-  "Você não quer repetir o ciclo de mães e avós que viveram sempre sobrecarregadas",
+  "Você só quer entrar em casa e se sentir bem — sem culpa, sem cansaço",
 ];
 
 export default function ForYou() {
