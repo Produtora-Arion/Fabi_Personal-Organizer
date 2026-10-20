@@ -15,8 +15,8 @@ export default function Hero() {
             {/* ANTES */}
             <div className="w-full sm:w-1/2 h-72 sm:h-[340px] md:h-[380px] relative">
               <Image
-                src="/images/Antes.jpeg"
-                alt="Antes: mulher sobrecarregada em casa desorganizada"
+                src="/images/antes-novo.jpeg"
+                alt="Antes: mulher sobrecarregada em sala desorganizada"
                 fill
                 className="object-cover [object-position:center_20%] sm:[object-position:center_15%]"
                 priority
@@ -40,8 +40,8 @@ export default function Hero() {
             {/* DEPOIS */}
             <div className="w-full sm:w-1/2 h-72 sm:h-[340px] md:h-[380px] relative">
               <Image
-                src="/images/depois.png"
-                alt="Depois: mulher feliz em casa organizada"
+                src="/images/depois-novo.jpeg"
+                alt="Depois: mulher tranquila em sala organizada"
                 fill
                 className="object-cover [object-position:center_20%] sm:[object-position:30%_15%]"
                 priority
