@@ -3,8 +3,8 @@ import Image from "next/image";
 const items = [
   {
     number: "01",
-    title: "Transforme sua casa em 7 dias — um cômodo por dia, no seu ritmo",
-    desc: "O e-book completo com roteiro diário por ambiente, checklists de ação e linguagem feita para mulheres 45+ — sem jargões, sem pressão, sem perfeccionismo. Você começa hoje e sente a diferença já na primeira semana.",
+    title: "Guia Prático da Casa Organizada em 7 Dias",
+    desc: "O método completo, com roteiro diário por ambiente, checklists de ação e linguagem feita para mulheres 45+ sem jargões, sem pressão, sem perfeccionismo. Um cômodo por dia. No seu ritmo. Com resultado real já na primeira semana.",
     price: "R$127,00",
     image: "/images/mockup-nobg.png",
     imageAlt: "E-book Guia Prático da Casa Organizada",
@@ -12,8 +12,8 @@ const items = [
   },
   {
     number: "02",
-    title: "Organize sem gastar nada — com o que você já tem em casa",
-    desc: "Descubra como criar soluções criativas usando caixas, potes, bandejas e itens que você já possui. Reduza custos e ganhe liberdade para organizar do seu jeito — porque o problema nunca foi falta de organizador.",
+    title: "Aprenda a criar organizadores Inteligentes com o que Você Já Tem em Casa",
+    desc: "Descubra como criar soluções de organização usando caixas, potes, bandejas e itens que você já tem. Organização sem gastar nada extra, porque o problema nunca foi falta de organizador.",
     price: "R$67,00",
     image: "/images/frame-organizadores.png",
     imageAlt: "Organizadores inteligentes com o que você já tem",
@@ -21,8 +21,8 @@ const items = [
   },
   {
     number: "03",
-    title: "Faça sua casa ter alma — não só organização",
-    desc: "Com flores, velas, aromas e pequenos gestos de acolhimento, seu lar deixa de ser apenas arrumado e passa a te fazer sentir bem. Porque entrar em casa e querer ficar é tudo.",
+    title: "Protocolo da Casa Cheirosa e Acolhedora",
+    desc: "Flores, aromas, pequenos detalhes de decoração, gestos simples que transformam uma casa organizada em um lar com alma. Porque organização não é só arrumação: é a sensação de entrar em casa e respirar fundo.",
     price: "R$67,00",
     image: "/images/0930240b8806e862fceb52c1a6a04707f723c8b1.png",
     imageAlt: "Casa cheirosa e acolhedora",
@@ -30,8 +30,8 @@ const items = [
   },
   {
     number: "04",
-    title: "A mesa do dia a dia: pequenos gestos que fortalecem a família",
-    desc: "Reconecte-se com quem você ama através de conversas e momentos simples à mesa. Ideias práticas para criar laços sem exigir tempo nem esforço extra — para quem quer uma casa que acolhe, não só que impressiona.",
+    title: "Manual da Mesa que Fortalece a Família",
+    desc: "Como criar momentos de conexão à mesa com o que você já tem, sem exigir tempo nem esforço extra. Para quem quer uma casa que acolhe, não só que impressiona.",
     price: "R$67,00",
     image: "/images/0ba827fe39e4a72ae35a3ce4c47463bf6f1101a3.png",
     imageAlt: "Mesa que fortalece a família",

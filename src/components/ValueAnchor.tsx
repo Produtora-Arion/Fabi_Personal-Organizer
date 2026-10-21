@@ -1,7 +1,7 @@
 const recap = [
   { title: "Guia Prático da Casa Organizada em 7 Dias", price: "R$197,00" },
   { title: "Organizadores Inteligentes que Você Já Tem em Casa", price: "R$97,00" },
-  { title: "Faça sua casa ter alma — não só organização", price: "R$67,00" },
+  { title: "Protocolo da Casa Cheirosa e Acolhedora", price: "R$67,00" },
   { title: "Manual da Mesa que Fortalece a Família", price: "R$67,00" },
 ];
 
