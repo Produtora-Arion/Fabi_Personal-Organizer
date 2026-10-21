@@ -15,8 +15,8 @@ const items = [
     title: "Organize sem gastar nada — com o que você já tem em casa",
     desc: "Descubra como criar soluções criativas usando caixas, potes, bandejas e itens que você já possui. Reduza custos e ganhe liberdade para organizar do seu jeito — porque o problema nunca foi falta de organizador.",
     price: "R$67,00",
-    image: "/images/1eadd1a1899510b179b67931478529a245c0f3a2.png",
-    imageAlt: "Organizadores inteligentes",
+    image: "/images/frame-organizadores.png",
+    imageAlt: "Organizadores inteligentes com o que você já tem",
     imageBg: "#A8C5A0",
   },
   {

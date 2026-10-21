@@ -26,8 +26,8 @@ export default function PainSection() {
     <section className="bg-[#95B08F] py-14 md:py-20 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto">
         <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-brand-black text-center mb-10 md:mb-14 leading-snug">
-          A cada dia que passa sem método, você sofre
-          <br className="hidden sm:block" /> com pensamentos do tipo...
+          Eu sei que você está cansada de ter sua casa bagunçada. Por isso,
+          <br className="hidden sm:block" /> toda vez que você olha pra bagunça, você pensa:
         </h2>
 
         {/* Desktop: mulher ao fundo, cards flutuando ao redor */}
@@ -136,16 +136,13 @@ export default function PainSection() {
         {/* Box inferior */}
         <div className="bg-[#FAF7F2] rounded-2xl px-6 sm:px-10 py-8 text-center max-w-3xl mx-auto">
           <h3 className="font-heading text-xl sm:text-2xl md:text-3xl text-brand-black font-bold mb-4">
-            E sabe o que é pior? Você não para.
+            É horrível se sentir assim, né?
           </h3>
-          <p className="font-body text-brand-black/70 leading-relaxed mb-2">
-            Todo dia você recomeça. Arruma um cantinho. Tenta uma estratégia nova. E no dia seguinte, tudo está igual.
-          </p>
           <p className="font-body text-brand-black/70 leading-relaxed mb-4">
-            Não é falta de vontade. É falta de um método que caiba na sua vida — para quem tem <strong>pouco tempo</strong>, faz <strong>tudo sozinha</strong> e já está cansada de recomeçar do zero.
+            Não ter tempo pra cuidar da casa, ela sempre bagunçada — e parece que você nunca tem paz.
           </p>
           <p className="font-body text-[#6B8F63] italic font-semibold">
-            Isso tem solução. E cabe em 7 dias.
+            Eu tenho certeza que você não quer mais passar por isso.
           </p>
         </div>
       </div>
