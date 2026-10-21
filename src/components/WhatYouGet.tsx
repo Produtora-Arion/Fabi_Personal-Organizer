@@ -21,8 +21,8 @@ const items = [
   },
   {
     number: "03",
-    title: "Pequenos detalhes que transformam uma casa em lar",
-    desc: "Acolhimento vai além da arrumação: flores, cheiros suaves, fotos e gestos de cuidado que trazem alma para o seu espaço. Porque entrar em casa e respirar fundo é o que toda mulher merece sentir.",
+    title: "Faça sua casa ter alma — não só organização",
+    desc: "Com flores, velas, aromas e pequenos gestos de acolhimento, seu lar deixa de ser apenas arrumado e passa a te fazer sentir bem. Porque entrar em casa e querer ficar é tudo.",
     price: "R$67,00",
     image: "/images/0930240b8806e862fceb52c1a6a04707f723c8b1.png",
     imageAlt: "Casa cheirosa e acolhedora",
