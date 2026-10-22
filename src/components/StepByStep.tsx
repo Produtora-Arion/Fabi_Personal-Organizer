@@ -6,7 +6,7 @@ const steps = [
     emoji: "🎯",
     title: "Descubra seu ambiente prioritário",
     desc: "Identifique o cômodo que mais impacta sua rotina e humor — e comece por ele. Máximo impacto com o mínimo esforço.",
-    image: "/images/step-prioritario.webp",
+    image: "/images/step-01-prioridade.webp",
     imageAlt: "Ambiente desorganizado para priorizar",
     accent: "#6B8F63",
   },
