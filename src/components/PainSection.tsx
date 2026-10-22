@@ -90,42 +90,44 @@ export default function PainSection() {
           </div>
         </div>
 
-        {/* Mobile: todos os 5 cards flutuando sobre imagem grande */}
+        {/* Mobile: cards 1-2 acima da imagem; 3-5 flutuando sobre o corpo */}
         <div className="md:hidden mb-8">
-          <div className="relative h-[500px]">
 
-            {/* Mulher — imagem grande de fundo */}
+          {/* Cards 1 e 2 — acima da imagem, rosto livre */}
+          <div className="flex gap-3 mb-2 px-1">
+            <div className="flex-1">
+              <QuoteBubble text="Olho pra bagunça e fico com" bold="vontade de largar tudo" emoji="/images/emoji-1.png" />
+            </div>
+            <div className="flex-1 mt-6">
+              <QuoteBubble text="Quando visita chega, sinto" bold="vergonha da minha própria casa" emoji="/images/emoji-2.png" />
+            </div>
+          </div>
+
+          {/* Imagem + cards 3-5 flutuando sobre o corpo (abaixo do rosto) */}
+          <div className="relative h-[420px]">
+
+            {/* Mulher — imagem de fundo, ancorada no topo */}
             <div className="absolute inset-0 z-0 pointer-events-none">
               <Image
                 src="/images/mulher-preocupada.png"
                 alt="Mulher sobrecarregada e preocupada"
                 fill
-                className="object-contain object-center"
+                className="object-contain object-top"
               />
             </div>
 
-            {/* Card 1 — topo esquerdo */}
-            <div className="absolute top-2 left-1 w-[44%] z-10">
-              <QuoteBubble text="Olho pra bagunça e fico com" bold="vontade de largar tudo" emoji="/images/emoji-1.png" />
-            </div>
-
-            {/* Card 2 — topo direito, levemente mais baixo */}
-            <div className="absolute top-12 right-1 w-[44%] z-10">
-              <QuoteBubble text="Quando visita chega, sinto" bold="vergonha da minha própria casa" emoji="/images/emoji-2.png" />
-            </div>
-
-            {/* Card 3 — meio-baixo esquerdo */}
-            <div className="absolute top-[52%] left-1 w-[44%] z-10">
+            {/* Card 3 — esquerdo, altura do ombro */}
+            <div className="absolute top-[30%] left-1 w-[44%] z-10">
               <QuoteBubble text="Tentei mil métodos." bold="Nenhum durou uma semana" emoji="/images/emoji-3.png" />
             </div>
 
-            {/* Card 4 — meio-baixo direito */}
-            <div className="absolute top-[62%] right-1 w-[44%] z-10">
+            {/* Card 4 — direito, levemente mais baixo */}
+            <div className="absolute top-[48%] right-1 w-[44%] z-10">
               <QuoteBubble text="Faço tudo sozinha e" bold="ninguém ajuda" textAfter=". É desgastante." emoji="/images/emoji-4.png" />
             </div>
 
             {/* Card 5 — base centralizado */}
-            <div className="absolute bottom-2 left-1/2 -translate-x-1/2 w-[52%] z-10">
+            <div className="absolute bottom-2 left-1/2 -translate-x-1/2 w-[54%] z-10">
               <QuoteBubble text="Arrumo e logo" bold="volta tudo" textAfter=". Vivo apagando incêndio." emoji="/images/emoji-5.png" />
             </div>
           </div>
