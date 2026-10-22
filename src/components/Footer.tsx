@@ -9,7 +9,7 @@ export default function Footer() {
         </p>
         <p className="text-sm text-white/50 mb-6">Personal Organizer · @fabidamiani</p>
         <div className="flex items-center justify-center gap-6 text-sm text-white/40 mb-4">
-          <a href="#" className="hover:text-white/70 transition-colors">
+          <a href="/termos-de-uso" className="hover:text-white/70 transition-colors">
             Termos de Uso
           </a>
           <a href="/politica-de-privacidade" className="hover:text-white/70 transition-colors">

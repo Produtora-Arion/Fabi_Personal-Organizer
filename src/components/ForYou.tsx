@@ -35,7 +35,7 @@ export default function ForYou() {
           {/* Imagem */}
           <div className="w-full sm:w-[340px] flex-shrink-0 rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/images/antes-novo.jpeg"
+              src="/images/foryou-antes.webp"
               alt="Mulher sobrecarregada em casa desorganizada"
               width={340}
               height={420}
