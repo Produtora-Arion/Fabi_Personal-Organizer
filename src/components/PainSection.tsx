@@ -90,44 +90,43 @@ export default function PainSection() {
           </div>
         </div>
 
-        {/* Mobile: cards 1-2 acima da mulher, cards 3-5 flutuando ao redor */}
-        <div className="md:hidden mb-8">
+        {/* Mobile: fluxo vertical — 2 cards | mulher | 2 cards | 1 card */}
+        <div className="md:hidden mb-8 flex flex-col gap-3">
 
-          {/* Cards 1 e 2 — acima da imagem */}
-          <div className="flex gap-3 mb-3 px-1">
+          {/* Cards 1 e 2 — topo, lado a lado */}
+          <div className="flex gap-3 px-1">
             <div className="flex-1">
               <QuoteBubble text="Olho pra bagunça e fico com" bold="vontade de largar tudo" emoji="/images/emoji-1.png" />
             </div>
-            <div className="flex-1 mt-4">
+            <div className="flex-1 mt-5">
               <QuoteBubble text="Quando visita chega, sinto" bold="vergonha da minha própria casa" emoji="/images/emoji-2.png" />
             </div>
           </div>
 
-          {/* Mulher + cards 3-5 flutuando */}
-          <div className="relative h-[380px]">
-            {/* Mulher — centro */}
-            <div className="absolute inset-0 z-0 flex justify-center items-start pointer-events-none">
-              <Image
-                src="/images/mulher-preocupada.png"
-                alt="Mulher sobrecarregada e preocupada"
-                width={190}
-                height={280}
-                className="h-[300px] w-auto object-contain"
-              />
-            </div>
+          {/* Mulher — centralizada */}
+          <div className="flex justify-center py-2">
+            <Image
+              src="/images/mulher-preocupada.png"
+              alt="Mulher sobrecarregada e preocupada"
+              width={180}
+              height={260}
+              className="h-[240px] w-auto object-contain"
+            />
+          </div>
 
-            {/* Card 3 — esquerda */}
-            <div className="absolute top-[40%] left-0 w-[132px] z-10">
+          {/* Cards 3 e 4 — abaixo da mulher, lado a lado */}
+          <div className="flex gap-3 px-1">
+            <div className="flex-1">
               <QuoteBubble text="Tentei mil métodos." bold="Nenhum durou uma semana" emoji="/images/emoji-3.png" />
             </div>
-
-            {/* Card 4 — direita, levemente mais baixo */}
-            <div className="absolute top-[48%] right-0 w-[132px] z-10">
+            <div className="flex-1 mt-5">
               <QuoteBubble text="Faço tudo sozinha e" bold="ninguém ajuda" textAfter=". É desgastante." emoji="/images/emoji-4.png" />
             </div>
+          </div>
 
-            {/* Card 5 — base central */}
-            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[162px] z-10">
+          {/* Card 5 — centralizado no rodapé */}
+          <div className="flex justify-center px-1">
+            <div className="w-[200px]">
               <QuoteBubble text="Arrumo e logo" bold="volta tudo" textAfter=". Vivo apagando incêndio." emoji="/images/emoji-5.png" />
             </div>
           </div>
