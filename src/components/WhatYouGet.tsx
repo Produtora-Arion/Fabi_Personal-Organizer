@@ -22,7 +22,7 @@ const items = [
   {
     number: "03",
     title: "Protocolo da Casa Cheirosa e Acolhedora",
-    desc: "Flores, aromas, pequenos detalhes de decoração, gestos simples que transformam uma casa organizada em um lar com alma. Porque organização não é só arrumação: é a sensação de entrar em casa e respirar fundo.",
+    desc: "Protocolo prático onde você vai aprender a montar arranjos, cheiros para transformar sua casa organizada em um lar.",
     price: "R$67,00",
     image: "/images/0930240b8806e862fceb52c1a6a04707f723c8b1.png",
     imageAlt: "Casa cheirosa e acolhedora",
