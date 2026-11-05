@@ -25,7 +25,7 @@ export default function Hero() {
 
         {/* Headline */}
         <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4 text-white">
-          Organize sua casa em 7 dias, mesmo com a rotina corrida e sem ajuda.
+          Baixe agora o método que deixará sua casa perfeitamente organizada em 7 dias.
         </h1>
 
         {/* Subtítulo */}
