@@ -4,7 +4,7 @@ const items = [
   {
     number: "01",
     title: "Guia Prático da Casa Organizada em 7 Dias",
-    desc: "O método completo, com roteiro diário por ambiente, checklists de ação e linguagem feita para mulheres 45+ sem jargões, sem pressão, sem perfeccionismo. Um cômodo por dia. No seu ritmo. Com resultado real já na primeira semana.",
+    desc: "Método completo, roteiro diário por ambiente, checklist de ação, prática para a sua casa ficar sempre organizada. Com resultado real já na primeira semana.",
     price: "R$127,00",
     image: "/images/mockup-nobg.png",
     imageAlt: "E-book Guia Prático da Casa Organizada",
